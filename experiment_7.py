@@ -68,14 +68,14 @@ def main():
         print("\n1 green \n2.yellow")
         k = int(input())
         if k == 1 and x == 1: # frog® and green1
-            print("yes it is in ", end='')
+            print(" yes it is in ", end='')
             print(color[0], end='')
-            print("colour and will ", end='')
+            print(" colour and will ", end='')
             print (database [0])
         elif k == 2 and x == 2: # canary1 and yelLow3
-            print("yes it is in", end='')
+            print(" yes it is in", end='')
             print (color[1], end='')
-            print("Colour and will ", end='')
+            print(" Colour and will ", end='')
             print(database[1])
         else:
             print("\nInvalid Knowledgebase", end='')
